@@ -23,3 +23,7 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+#intellij ignores
+go-dos-yourself.iml
+.idea/
