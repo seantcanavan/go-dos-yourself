@@ -4,7 +4,9 @@ import "fmt"
 import "os"
 import "bufio"
 import "strings"
-//import "github.com/seantcanavan/threads"
+import (
+	//"github.com/seantcanavan/threads"
+)
 
 func main() {
 
@@ -18,7 +20,7 @@ func main() {
 
 	if len(os.Args) < req_params {
 		fmt.Println("Invalid number of parameters. Expected: ", req_params, " Found: ", len(os.Args))
-		//os.Exit(1)
+		os.Exit(1)
 	}
 
 	for index, element := range os.Args {

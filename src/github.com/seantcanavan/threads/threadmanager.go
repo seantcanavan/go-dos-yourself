@@ -15,25 +15,28 @@ func NewThread(messages chan string, id int, name string) *thread {
 	return t
 }
 
-func (t thread) start() {
+func (t thread) Start() bool {
 	t.messages <- "start real"
+	return true
 }
 
-func (t thread) stop() {
+func (t thread) Stop() bool {
 	t.messages <- "stop real"
+	return true
 }
 
-func (t thread) change_job() {
+func (t thread) ChangeJob(jobName string) {
 	t.messages <- "change_job real"
 }
 
-func (t thread) print_details() {
+func (t thread) PrintDetails() {
 	t.messages <- "print_details real"
 }
 
 type thread_actions interface {
-	start()
-	stop()
-	change_job()
-	print_details()
+	Start() bool
+	Stop() bool
+	ChangeJob(jobName string)
+	PrintDetails()
 }
+
