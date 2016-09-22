@@ -1,0 +1,7 @@
+{
+    "Name": "Marker Trademark API",
+    "Comment": "Yes this has a password. No I don't care if you see it. It's free to sign up. This password is specific to the API",
+    "URI": "http://www.markerapi.com/api/v1/trademark/search/baskinrobbins/username/thomasashley792/password/xLjWZfKCkq",
+    "Method": "GET",
+    "ContentType": "application/json"
+}

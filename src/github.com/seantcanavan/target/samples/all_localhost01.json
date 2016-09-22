@@ -1,0 +1,8 @@
+{
+    "Name": "my 1337 machine",
+    "URI": "127.0.0.1",
+    "Port": 8080,
+    "IPV6": false,
+    "PortRange": false,
+    "IPRange": false
+}

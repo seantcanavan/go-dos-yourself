@@ -1,0 +1,6 @@
+{
+    "Name": "shodan query of Google main DNS",
+    "URI": "https://api.shodan.io/shodan/host/8.8.8.8?key=MFuS0RPXqInMILeWWPFktPp2BOHUZpzF",
+    "Method": "GET",
+    "ContentType": "application/json"
+}

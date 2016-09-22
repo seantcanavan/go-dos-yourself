@@ -1,0 +1,7 @@
+{
+    "Backoff": false,
+    "Duration": 30,
+    "MaxIterations": 10,
+    "TimeBetween": 3,
+    "Routine": "ping"
+}

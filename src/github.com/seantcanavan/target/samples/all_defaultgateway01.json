@@ -1,0 +1,8 @@
+{
+    "Name": "my 1337 router",
+    "URI": "192.168.0.1",
+    "Port": 80,
+    "IPV6": false,
+    "PortRange": false,
+    "IPRange": false
+}

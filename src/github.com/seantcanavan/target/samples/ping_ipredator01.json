@@ -1,0 +1,6 @@
+{
+  "Port": 80,
+  "IPV6": false,
+  "IPV4Address": "194.132.32.32",
+  "Name": "The public DNS server for IPreadtor.se"
+}

@@ -1,0 +1,6 @@
+{
+    "Name": "reqres get users page 1",
+    "URI": "http://reqres.in/api/users?page=1",
+    "Method": "GET",
+    "ContentType": "application/json"
+}
