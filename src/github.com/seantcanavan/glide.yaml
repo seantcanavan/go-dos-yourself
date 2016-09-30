@@ -1,0 +1,4 @@
+package: github.com/seantcanavan
+import:
+- package: github.com/abiosoft/ishell
+- package: github.com/tatsushid/go-fastping

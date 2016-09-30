@@ -27,3 +27,6 @@ _testmain.go
 #intellij ignores
 go-dos-yourself.iml
 .idea/
+
+#vendor folder for glide
+/src/github.com/seantcanavan/vendor
