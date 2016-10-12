@@ -2,10 +2,11 @@ package routine
 
 import (
 	"fmt"
-	"github.com/seantcanavan/target"
-	"github.com/tatsushid/go-fastping"
 	"net"
 	"time"
+
+	"github.com/seantcanavan/target"
+	"github.com/tatsushid/go-fastping"
 )
 
 type Ping struct {

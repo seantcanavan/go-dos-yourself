@@ -2,9 +2,10 @@ package job
 
 import (
 	"fmt"
+	"time"
+
 	"github.com/seantcanavan/config"
 	"github.com/seantcanavan/routine"
-	"time"
 )
 
 type Job struct {

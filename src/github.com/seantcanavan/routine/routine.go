@@ -3,6 +3,7 @@ package routine
 import (
     "fmt"
     "strings"
+
     "github.com/seantcanavan/target"
 )
 
@@ -15,6 +16,7 @@ type Routine interface {
 func PrintallRoutineNames() {
     fmt.Println("get")
     fmt.Println("ping")
+    fmt.Println("post"
     fmt.Println("ssh")
 }
 

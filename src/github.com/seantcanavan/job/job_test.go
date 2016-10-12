@@ -1,11 +1,12 @@
 package job
 
 import (
+	"path/filepath"
+	"testing"
+
 	"github.com/seantcanavan/config"
 	"github.com/seantcanavan/routine"
 	"github.com/seantcanavan/target"
-	"path/filepath"
-	"testing"
 )
 
 func TestJobPass(t *testing.T) {

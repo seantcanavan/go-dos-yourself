@@ -30,3 +30,5 @@ go-dos-yourself.iml
 
 #vendor folder for glide
 /src/github.com/seantcanavan/vendor
+#lock file for glide
+/src/github.com/seantcanavan/glide.lock

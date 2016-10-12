@@ -4,15 +4,17 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/seantcanavan/target"
 	"io/ioutil"
 	"net/http"
 	"strings"
+
+	"github.com/seantcanavan/target"
 )
 
 type Get struct {
 	RunTarget target.Target
 }
+
 func (g Get) SetTarget(target target.Target) {
 	g.RunTarget = target
 }

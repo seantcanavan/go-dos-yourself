@@ -1,9 +1,10 @@
 package routine
 
 import (
-    "github.com/seantcanavan/target"
     "path/filepath"
     "testing"
+
+    "github.com/seantcanavan/target"
 )
 
 func TestGetReqRes1Pass(t *testing.T) {
