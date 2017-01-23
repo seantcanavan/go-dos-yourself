@@ -4,7 +4,7 @@ import (
     "fmt"
     "strings"
 
-    "github.com/seantcanavan/target"
+    "github.com/seantcanavan/go-dos-yourself/target"
 )
 
 // Routine defines an interface through which any abstract set of network commands can be executed.

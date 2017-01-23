@@ -1,7 +1,7 @@
 package routine
 
 import (
-	"github.com/seantcanavan/target"
+	"github.com/seantcanavan/go-dos-yourself/target"
 )
 
 type SSH struct {

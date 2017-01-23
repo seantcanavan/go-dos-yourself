@@ -6,10 +6,10 @@ import (
 	"strconv"
 
 	"github.com/abiosoft/ishell"
-	"github.com/seantcanavan/config"
-	"github.com/seantcanavan/job"
-	"github.com/seantcanavan/routine"
-	"github.com/seantcanavan/target"
+	"github.com/seantcanavan/go-dos-yourself/config"
+	"github.com/seantcanavan/go-dos-yourself/job"
+	"github.com/seantcanavan/go-dos-yourself/routine"
+	"github.com/seantcanavan/go-dos-yourself/target"
 )
 
 var configs []config.Config

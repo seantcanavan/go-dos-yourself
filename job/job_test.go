@@ -4,9 +4,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/seantcanavan/config"
-	"github.com/seantcanavan/routine"
-	"github.com/seantcanavan/target"
+	"github.com/seantcanavan/go-dos-yourself/config"
+	"github.com/seantcanavan/go-dos-yourself/routine"
+	"github.com/seantcanavan/go-dos-yourself/target"
 )
 
 func TestJobPass(t *testing.T) {

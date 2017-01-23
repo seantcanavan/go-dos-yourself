@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/seantcanavan/config"
-	"github.com/seantcanavan/routine"
+	"github.com/seantcanavan/go-dos-yourself/config"
+	"github.com/seantcanavan/go-dos-yourself/routine"
 )
 
 type Job struct {

@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/seantcanavan/target"
+	"github.com/seantcanavan/go-dos-yourself/target"
 )
 
 type Get struct {

@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/seantcanavan/target"
+	"github.com/seantcanavan/go-dos-yourself/target"
 	"github.com/tatsushid/go-fastping"
 )
 

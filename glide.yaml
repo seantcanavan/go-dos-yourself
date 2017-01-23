@@ -1,4 +1,4 @@
-package: github.com/seantcanavan
+package: github.com/seantcanavan/go-dos-yourself
 import:
 - package: github.com/abiosoft/ishell
 - package: github.com/tatsushid/go-fastping

@@ -4,7 +4,7 @@ import (
     "path/filepath"
     "testing"
 
-    "github.com/seantcanavan/target"
+    "github.com/seantcanavan/go-dos-yourself/target"
 )
 
 func TestGetReqRes1Pass(t *testing.T) {
