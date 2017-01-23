@@ -16,7 +16,7 @@ type Routine interface {
 func PrintallRoutineNames() {
     fmt.Println("get")
     fmt.Println("ping")
-    fmt.Println("post"
+    fmt.Println("post")
     fmt.Println("ssh")
 }
 

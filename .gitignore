@@ -29,3 +29,6 @@ vendor/
 
 #lock file for glide
 glide.lock
+
+#local binary folder
+bin/
