@@ -24,11 +24,8 @@ _testmain.go
 *.test
 *.prof
 
-#intellij ignores
-go-dos-yourself.iml
-.idea/
-
 #vendor folder for glide
-/src/github.com/seantcanavan/vendor
+vendor/
+
 #lock file for glide
-/src/github.com/seantcanavan/glide.lock
+glide.lock
