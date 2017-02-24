@@ -32,7 +32,7 @@ release:
 	for p in $(PACKAGES); do \
 		go install $$p; \
 	done
-	cp -f ../../../../bin/main ./bin/go-dos-yourself
+	mv ../../../../bin/main ./bin/go-dos-yourself
 
 test:
 	for p in $(PACKAGES); do \
